@@ -18,9 +18,6 @@ public class App {
 
 		EstacionMetereologica sur = context.getBean("estacionMetereologicaSur", EstacionMetereologica.class);
 		sur.tomarMedicion();
-		
-		EstacionMetereologica este = context.getBean("estacionMetereologicaEste", EstacionMetereologica.class);
-		este.tomarMedicion();
 
 		EstacionMetereologica estacionNorteTermometro = context.getBean("norteTermometro", EstacionMetereologica.class);
 		estacionNorteTermometro.tomarMedicion();

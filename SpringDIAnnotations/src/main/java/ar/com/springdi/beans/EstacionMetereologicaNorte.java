@@ -26,5 +26,4 @@ public class EstacionMetereologicaNorte implements EstacionMetereologica {
 	public void tomarMedicion() {
 		instrumento.medir();
 	}
-
 }
